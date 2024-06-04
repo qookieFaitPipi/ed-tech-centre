@@ -1,0 +1,56 @@
+.step {
+  background-color: #89BDBB;
+  width: 160px;
+  height: 160px;
+  //width: 15%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  transition: 0.8s;
+  cursor: pointer;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      color: #151A31;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      //border-bottom: 2px #151A31 solid;
+      padding-bottom: 10px;
+      white-space: pre-line;
+      font-family: 'boldFont', sans-serif;
+    }
+
+    .hr {
+      display: none;
+    }
+
+    .text {
+      display: none;
+    }
+  }
+}
+
+.step:hover {
+  width: 300px;
+  transition: 0.8s;
+  
+  .hr {
+    display: block;
+    width: 90%;
+    border: 1px solid #151A31;
+  }
+
+  .text {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+}

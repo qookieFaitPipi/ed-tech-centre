@@ -1,0 +1,44 @@
+.help {
+  background-color: #151A31;
+  padding-top: 10px;
+
+  .content {
+    display: flex;
+    align-items: center;
+    background-color: #4E4A3F;
+    border-radius: 20px;
+    max-width: 85%;
+    margin: 0 auto;
+
+
+    @media (min-width: 1400px) {
+      max-width: 1200px;
+    }
+
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+
+      .title {
+        color: #CBC5BB;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'boldFont', sans-serif;
+      }
+  
+      .button {
+        color: #151A31;
+        font-size: 28px;
+        font-weight: 600;
+        background-color: #CBC5BB;
+        border-radius: 50px;
+        padding: 30px;
+        font-family: 'boldFont', sans-serif;
+      }
+    }
+  }
+}

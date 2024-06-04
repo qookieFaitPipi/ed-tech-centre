@@ -1,0 +1,35 @@
+.about {
+  background-color: #151A31;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: calc(100vh - 123px);
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .mainImage {
+      width: 100%;
+    }
+
+    .buttonBlock {
+      margin: 0 auto;
+
+      .button {
+        position: relative;
+        bottom: 240px;
+        color: #151A31;
+        font-size: 28px;
+        font-weight: 600;
+        background-color: #CBC5BB;
+        z-index: 1;
+        border-radius: 50px;
+        padding: 30px;
+        font-family: 'boldFont', sans-serif;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.advantages {
+  display: flex;
+  align-items: center;
+  background: #151A31;
+  background-size: cover;
+  height: 100vh;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 95%;
+    margin: auto;
+
+    @media (min-width: 1400px) {
+      max-width: 1400px;
+    }
+
+    .title {
+      color: #89BDBB;
+      font-weight: 600;
+      font-size: 34px;
+      font-family: 'boldFont', sans-serif;
+      margin-bottom: 50px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+
+      .leftBlock {
+        width: 50%;
+        margin: auto;
+        background-color: #CBC5BB;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 5px;
+
+        .helloTitle {
+          text-align: center;
+          font-weight: 600;
+          font-size: 22px;
+          margin-top: 30px;
+        }
+
+        .helloText {
+          padding: 0px 30px 30px 30px;
+          margin-top: 10px;
+          text-align: justify;
+        }
+      }
+
+      .rightBlock {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+
+        .factSmall {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 180px;
+          height: auto;
+          background-color: #4E4A3F;
+          margin: 5px;
+          border-radius: 20px;
+          color: #CBC5BB;
+          font-weight: 600;
+        }
+
+        .factLarge {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 370px;
+          height: auto;
+          background-color: #4E4A3F;
+          margin: 5px;
+          border-radius: 20px;
+          color: #CBC5BB;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

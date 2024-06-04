@@ -1,0 +1,45 @@
+.area {
+  width: 22.5%;
+  background-color: #CBC5BB;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 160px;
+  //aspect-ratio: 1/1;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .image {
+      height: 140px;
+      margin: auto;
+      transition: 0.5s;
+    }
+
+    .name {
+      text-align: center;
+      color: #151A31;
+      font-weight: 600;
+      font-size: 28px;
+      margin-top: 10px;
+      display: none;
+    }
+  }
+}
+
+.area:hover {
+  cursor: pointer;
+
+  .image {
+    height: 100px;
+    transition: 0.5s;
+    fill: #4E4A3F !important;
+    cursor: pointer;
+  }
+
+  .name {
+    display: block;
+  }
+}

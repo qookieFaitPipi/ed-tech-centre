@@ -1,0 +1,43 @@
+.areas {
+  display: flex;
+  align-items: center;
+  background: #151A31;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100% !important;
+    margin: auto;
+    width: 85%;
+
+    @media (min-width: 1400px) {
+      max-width: 1400px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin: auto;
+      margin-top: 15px;
+
+      .title {
+        color: #89BDBB;
+        font-weight: 600;
+        font-size: 34px;
+        font-family: 'boldFont', sans-serif;
+
+      }
+    }
+
+    .row:first-child {
+      margin-top: 0px;
+    }
+  }
+}
+

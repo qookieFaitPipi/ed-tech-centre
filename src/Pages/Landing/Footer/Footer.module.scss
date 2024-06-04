@@ -1,0 +1,45 @@
+.footer {
+  background-color: #89BDBB;
+  padding: 50px;
+
+  .content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 95%;
+    margin: auto;
+
+    @media (min-width: 1400px) {
+      max-width: 1400px;
+    }
+
+    .contacts {
+      display: flex;
+
+      .icons {
+        display: flex;
+        margin-right: 54px;
+
+        .icon {
+          width: 56px;
+          margin-right: 20px;
+          cursor: pointer;
+        }
+        .icon:last-child {
+          margin-right: 0px;
+        }
+      }
+  
+      .phones {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .phoneItem {
+          font-weight: 600;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

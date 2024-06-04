@@ -1,0 +1,66 @@
+.steps {
+  background: #151A31;
+  background-size: cover;
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 100vh;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    margin: auto;
+
+    @media (min-width: 1400px) {
+      max-width: 1400px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      .row {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+      }
+
+      .row1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        width: 100%;
+
+        .title {
+          color: #89BDBB;
+          font-weight: 600;
+          font-size: 34px;
+          font-family: 'boldFont', sans-serif;
+        }
+
+      }
+
+      .row1 > :nth-child(2) {
+        margin-right: 195px;
+        width: 160px !important;
+
+        .title {
+          border: none;
+        }
+      }
+
+      .row2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%; 
+      }
+
+      .row2 > :nth-child(1) {
+        margin-right: 230px;
+      }
+    }
+  }
+}

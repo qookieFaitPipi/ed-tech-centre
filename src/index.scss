@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'normalFont';
+  src: url('Assets/fonts/Gotham_Pro/gothampro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'boldFont';
+  src: url('Assets/fonts/Gotham_Pro/gothampro_bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'normalFont', sans-serif;
+}
+
+html {
+  scrollbar-width: none !important;
+
+}
