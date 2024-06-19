@@ -4,6 +4,7 @@ import styles from './About.module.scss';
 // images
 import vector from './../../../Assets/images/background/aboutVector2.svg';
 import a from './../../../Assets/images/about4.svg';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
       <div className={styles.content}>
         <img className={styles.mainImage} src={a} alt="about" />
         <div className={styles.buttonBlock}>
-          <div className={styles.button}>Оставить заявку</div>
+          <Link to="https://t.me/NSarch1" className={styles.button}>Оставить заявку</Link>
         </div>
       </div>
     </div>

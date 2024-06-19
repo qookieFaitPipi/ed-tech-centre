@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Help.module.scss';
+import { Link } from 'react-router-dom';
 
 const Help = () => {
   return (
@@ -7,7 +8,7 @@ const Help = () => {
       <div className={styles.content}>
         <div className={styles.info}>
           <div className={styles.title}>Остались вопросы? <br/>Получите персональную консультацию</div>
-          <div className={styles.button}>Оставить заявку</div>
+          <Link to="https://t.me/NSarch1"  className={styles.button}>Оставить заявку</Link>
         </div>
       </div>
     </div>

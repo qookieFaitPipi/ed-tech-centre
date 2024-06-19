@@ -21,7 +21,7 @@ import icon10 from './../../../Assets/images/areas/icon10.svg';
 
 const Areas = () => {
   return (
-    <div className={styles.areas} style={{backgroundImage: `url(${vector})`}}>
+    <div className={styles.areas} style={{backgroundImage: `url(${vector})`}} id='scrollAreas'>
       <div className={styles.content}>
         <div className={styles.row}>
           <Area name="Математика" image={icon1} />

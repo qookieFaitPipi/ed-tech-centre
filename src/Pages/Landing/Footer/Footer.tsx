@@ -8,7 +8,7 @@ import telegramIcon from './../../../Assets/images/icons/telegram_icon.svg';
 
 const Footer: React.FC = () => {
   return (
-    <div className={styles.footer}>
+    <div className={styles.footer} id='scrollFooter'>
       <div className={styles.content}>
 
         <div className={styles.contacts}>

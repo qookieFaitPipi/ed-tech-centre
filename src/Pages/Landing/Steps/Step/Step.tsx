@@ -9,7 +9,7 @@ const Step: React.FC<StepType> = ({title, text}) => {
     <div className={styles.step}>
       <div className={styles.content}>
         <div className={styles.title}>{title}</div>
-        <hr className={styles.hr} />
+
         <div className={styles.text}>{text}</div>
       </div>
     </div>

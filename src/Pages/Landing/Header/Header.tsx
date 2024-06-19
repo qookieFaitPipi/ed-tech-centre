@@ -17,9 +17,24 @@ const Header: React.FC = () => {
             <div className={styles.choiceItem}>Я школьник</div>
           </div>
           <div className={styles.nav}>
-            <div className={styles.navItem}>О НАС</div>
-            <div className={styles.navItem}>ОБУЧЕНИЕ</div>
-            <div className={styles.navItem}>КОНТАКТЫ</div>
+            <div className={styles.navItem} onClick={() => {
+              const element = document.getElementById('scrollAbout');
+              if (element) {
+                window.scrollTo({ top: element.offsetTop, behavior: 'smooth' });
+              }
+            }}>О НАС</div>
+            <div className={styles.navItem} onClick={() => {
+              const element = document.getElementById('scrollAreas');
+              if (element) {
+                window.scrollTo({ top: element.offsetTop, behavior: 'smooth' });
+              }
+            }}>НАПРАВЛЕНИЯ</div>
+            <div className={styles.navItem} onClick={() => {
+              const element = document.getElementById('scrollFooter');
+              if (element) {
+                window.scrollTo({ top: element.offsetTop, behavior: 'smooth' });
+              }
+            }}>КОНТАКТЫ</div>
           </div>
         </div>
       </div>

@@ -12,14 +12,16 @@
 
     .mainImage {
       width: 100%;
+      max-width: 1400px;
     }
 
     .buttonBlock {
       margin: 0 auto;
+      margin-top: -50px;
+
 
       .button {
         position: relative;
-        bottom: 240px;
         color: #151A31;
         font-size: 28px;
         font-weight: 600;
@@ -29,6 +31,7 @@
         padding: 30px;
         font-family: 'boldFont', sans-serif;
         cursor: pointer;
+        text-decoration: none;
       }
     }
   }
